@@ -2,10 +2,13 @@ package main
 
 import (
 	"fmt"
-	"os"
 )
 
 func main() {
-	fmt.Println("Hello, world")
-	fmt.Println(os.Getenv("USER"), ", Let's be friends!")
+	// if logic check
+	var i = -1
+	a := make([]int, 3)
+	if a[i] == 0 && i >= 0 {
+		fmt.Println(a[i])
+	}
 }
